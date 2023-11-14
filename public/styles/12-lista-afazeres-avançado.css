@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+  padding: 8px 12px;
+}
+
+.grid-afazeresInput,
+.grid-afazeres{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 5px;
+  align-items: center;
+}
+
+.grid-afazeresInput{
+  margin-block-end: 5px;
+  align-items: stretch;
+}
+
+
+
+.botaoAdd,
+.botaoDeletar{
+  padding: 11px 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.botaoAdd{
+  background-color: green;
+}
+
+.botaoDeletar{
+  background-color: darkred;
+}
+
